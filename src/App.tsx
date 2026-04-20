@@ -1,5 +1,6 @@
 import heroImage from './assets/driving-hero.svg'
 import lessonImage from './assets/lesson-route.svg'
+import { InstructorsShowcase } from './components/InstructorsShowcase'
 import './App.css'
 
 const programs = [
@@ -72,6 +73,7 @@ function App() {
         </a>
         <nav className="nav">
           <a href="#programs">Программы</a>
+          <a href="#instructors">Инструкторы</a>
           <a href="#process">Как учим</a>
           <a href="#reviews">Отзывы</a>
           <a href="#request">Заявка</a>
@@ -211,6 +213,8 @@ function App() {
             </ul>
           </div>
         </section>
+
+        <InstructorsShowcase />
 
         <section className="section process" id="process">
           <div className="section__heading">
